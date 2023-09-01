@@ -51,13 +51,14 @@ const AddTaskModal = ({ isOpen, setIsOpen }) => {
           <select
             className="w-full rounded-md"
             name="assignTo"
-            {...register("assignTo")}
+            {...register("assignedTo")}
             id="assignTo"
           >
             <option value="Mahabu">Mahabu</option>
             <option value="abu">abu</option>
             <option value="shahabu">shahabu</option>
             <option value="babu">babu</option>
+            <option value="Mir Hussain">Mir Hussain</option>
           </select>
         </div>
         <div className="flex flex-col gap-3">

@@ -53,7 +53,7 @@ const Tasks = () => {
               </p>
             </div>
             <div className="space-y-3">
-              {tasks?.map((item) => (
+              {pendingTasks?.map((item) => (
                 <TaskCard key={item.id} task={item} />
               ))}
             </div>
@@ -66,7 +66,7 @@ const Tasks = () => {
               </p>
             </div>
             <div className="space-y-3">
-              {tasks?.map((item) => (
+              {runningTasks?.map((item) => (
                 <TaskCard key={item.id} task={item} />
               ))}
             </div>
@@ -79,7 +79,7 @@ const Tasks = () => {
               </p>
             </div>
             <div className="space-y-3">
-              {tasks?.map((item) => (
+              {doneTasks?.map((item) => (
                 <TaskCard key={item.id} task={item} />
               ))}
             </div>
